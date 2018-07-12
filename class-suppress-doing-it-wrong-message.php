@@ -10,10 +10,10 @@
  * your own strings below.
  *
  * @since       1.0.0
- * @package     wds-log-cleaner
+ * @package     WDS\Util\SupressDoingItWrong
  */
 
-namespace WDS\Util;
+namespace WDS\Util\SupressDoingItWrong;
 
 /**
  * Suppress a _doing_it_wrong message.
