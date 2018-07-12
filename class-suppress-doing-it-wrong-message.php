@@ -148,6 +148,7 @@ function suppress_doing_it_wrong_message() {
 	// This _doing_it_wrong should get suppressed (self test).
 	_doing_it_wrong( 'suppress_me_function', "7197566a25a6ade61e15dd52b7830c1c: If you are seeing me, this thing isn't working.", '0.0' );
 
+	// If you want to ensure that other _doing_it_wrong messages will make it through, set this to true.
 	if ( defined( 'DEBUG_SUPPRESS_DOING_IT_WRONG_MESSAGE_PASS' ) && DEBUG_SUPPRESS_DOING_IT_WRONG_MESSAGE_PASS ) {
 
 		// Show a _doing_it_wrong message we're definitely not going to suppress.
